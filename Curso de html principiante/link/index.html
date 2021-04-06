@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Link</title>
+</head>
+<body>
+    <!--_self - Default. Opens the document in the same window/tab as it was clicked
+    _blank - Opens the document in a new window or tab
+    _parent - Opens the document in the parent frame
+    _top - Opens the document in the full body of the window-->
+    <a href="https://www.google.com/" target="_blank">Google</a>
+    <h3>
+        Mail
+    </h3>
+    <a href="mailto:someone@example.com">Send email</a>
+    <h3>
+        Button
+    </h3>
+    <button onclick="document.location='default.asp'">HTML Tutorial</button>
+
+    <h3>Map</h3>
+    <img src="workplace.jpg" alt="Workplace" usemap="#workmap">
+
+    <map name="workmap">
+    <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+    <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+    <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm">
+</map>
+</body>
+</html>

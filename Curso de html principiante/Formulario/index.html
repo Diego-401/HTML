@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulario</title>
+    </head>
+    <body>
+        <!--action url o a donde va ser enviado-->
+        <form action="" methon="post">
+            <p>
+                <label for="nombre">Nombre</label>
+                </br>
+                <input type="text" name="nombre" placeholder="Escribe tu nombre"/>
+            </p>
+            <p>
+                <lable for="descripcion">Descripcion</lable>
+                </br>
+                <textarea name="descripcion" placeholder="Escribe la descripcion"></textarea>
+            </p>
+            <p>
+                <label for="genero">Selecciona tu genero</label>
+                </br>
+                <input type="radio" name="genero" value="Masculino"/>Masculino </br>
+                <input type="radio" name="genero" value="Femenina"/>Femenina </br>
+            </p>
+            <p>
+                <select>
+                    <option value="Hombre">Hombre</option>
+                    <option value="Mujer">Mujer</option>
+                </select>
+            </p>
+                <input type="submit" value="Enviar"/>
+        </form>
+    </body>
+</html>
